@@ -1,0 +1,81 @@
+/*COLOR DE LA HOJA DE TRABAJP*/
+body{
+    background-color:#545454
+}
+
+
+/*COLOR DE LA FUENTE DE PARRAFO*/
+p{
+    color:white;
+    font-size: 20px;
+}
+
+/*COLOR DE ENLACES*/
+a{
+    color:aliceblue;
+    font-size: 30px;
+}
+
+/*AL PASAR EL CURSOR POR ENCIMA EL LINK SE VE AZUL*/
+a:hover{
+    color:blue;
+}
+
+/*AL DAR CLICK EN EL ENLACE SE VE COLOR*/
+a:active{
+    color:red;
+}
+
+/*CONTENEDOR DE LINKS*/
+.contenedor{
+    background-color: #545454;
+    position: relative;
+    right:100px;
+    height:650px;
+    width: 500px;
+}
+
+h2{
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/*CONTENEDORES DE LOS TEXTOS*/
+.container{
+    color:white;
+    background-color: #00d8f2;
+    position: relative;
+    left:555px;
+    bottom:680px;
+    height:240px;/*ancho*/
+    width: 1200px;/*largo de izquierda a derecha*/
+}
+
+.container_2{
+    color:white;
+    background-color: yellow;
+    position: relative;
+    top: 58px;
+    height:260px; /*hancho*/
+    width: 1200px;/*largo*/
+}
+
+.container_3{
+    color:white;
+    background-color: orange;
+    position: relative; 
+    top: 38px;
+    height:230px; /*hancho*/
+    width: 1200px;/*largo*/  
+}
+
+.container_4{
+    color:white;
+    background-color: red;  
+    position: relative;
+    top: 18px;
+    height:200px; /*hancho*/
+    width: 1200px;/*largo*/
+}
+
